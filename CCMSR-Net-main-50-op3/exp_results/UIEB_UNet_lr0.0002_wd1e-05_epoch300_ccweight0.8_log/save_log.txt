@@ -1,0 +1,26 @@
+config: CCMSRNet.yml
+name: UIEB
+model_name: UNet
+num_epochs: 300
+batch_size: 16
+lr: 0.0002
+weight_decay: 1e-05
+img_size: 256
+cc_weight: 0.8
+model_file: models.CCMSRNet.UNet
+lr_decay: cosine
+Improved at epoch 1, val_loss=0.027103
+Improved at epoch 2, val_loss=0.024083
+Improved at epoch 3, val_loss=0.022133
+Improved at epoch 4, val_loss=0.021394
+Improved at epoch 5, val_loss=0.019529
+Improved at epoch 6, val_loss=0.018044
+Improved at epoch 10, val_loss=0.017509
+Improved at epoch 12, val_loss=0.017270
+Improved at epoch 13, val_loss=0.016428
+Improved at epoch 15, val_loss=0.016091
+Improved at epoch 18, val_loss=0.015527
+Improved at epoch 23, val_loss=0.015258
+Improved at epoch 32, val_loss=0.015125
+Improved at epoch 36, val_loss=0.014676
+Early stopping at epoch 48

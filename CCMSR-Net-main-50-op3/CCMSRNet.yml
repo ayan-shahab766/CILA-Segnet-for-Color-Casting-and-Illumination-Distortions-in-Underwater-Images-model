@@ -1,0 +1,10 @@
+name: "UIEB"
+model_name: "CCMSRNet"
+num_epochs: 300
+batch_size: 16
+lr: 0.0002
+weight_decay: 0.00001
+img_size: 256
+cc_weight: 0.8
+model_file: "models.CCMSRNet.UNet"
+lr_decay: "cosine"

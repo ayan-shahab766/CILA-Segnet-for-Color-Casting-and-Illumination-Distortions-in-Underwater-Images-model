@@ -1,0 +1,5 @@
+Params   : 5.890 M
+GFLOPs   : 11.157 G
+Latency  : 28.217 ms
+FPS      : 35.4
+NOTE: Latency excludes preprocessing (L-CLAHE + AB + dynamic fusion)
